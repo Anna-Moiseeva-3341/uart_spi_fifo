@@ -1,0 +1,22 @@
+// CLK
+IO_LOC  "clk" 45;
+IO_PORT "clk" IO_TYPE=LVCMOS18 PULL_MODE=UP;
+
+// LED
+IO_LOC  "o_LED1" 10;
+IO_PORT "o_LED1" IO_TYPE=LVCMOS18 PULL_MODE=UP;
+
+IO_LOC  "debug_signal[0]" 42;
+IO_PORT "debug_signal[0]" IO_TYPE=LVCMOS18 PULL_MODE=UP;
+
+IO_LOC  "debug_signal[1]" 43;
+IO_PORT "debug_signal[1]" IO_TYPE=LVCMOS18 PULL_MODE=UP;
+
+IO_LOC  "debug_signal[2]" 44;
+IO_PORT "debug_signal[2]" IO_TYPE=LVCMOS18 PULL_MODE=UP;
+
+IO_LOC  "debug_signal[3]" 46;
+IO_PORT "debug_signal[3]" IO_TYPE=LVCMOS18 PULL_MODE=UP;
+
+IO_LOC  "key_pressed" 15;
+IO_PORT "key_pressed" IO_TYPE=LVCMOS18 PULL_MODE=UP BANK_VCCIO=1.8;
